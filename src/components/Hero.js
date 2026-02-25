@@ -12,7 +12,7 @@ export default function Hero() {
                 priority
                 className="object-cover"
             />
-            <div className="absolute inset-0 bg-black/80 backdrop-blur-md z-0"></div>
+            <div className="absolute inset-0 bg-black/80 backdrop-blur-sm z-0"></div>
 
             {/* 3. Content - Ensure z-10 so it stays above the overlay */}
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-24 w-full">
